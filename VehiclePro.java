@@ -1,23 +1,22 @@
-// Abstract class Vehicle
+
 abstract class Vehicle {
 
-    double distance;      // in kilometers
-    double time;          // in hours
-    double displacement;  // in kilometers
+    double distance;     
+    double time;         
+    double displacement;  
 
-    // Constructor
+   
     Vehicle(double distance, double displacement, double time) {
         this.distance = distance;
         this.displacement = displacement;
         this.time = time;
     }
 
-    // Abstract methods
-    abstract double calculateSpeed();
+    eed();
     abstract double calculateVelocity();
 }
 
-// Car class extending Vehicle
+
 class Car extends Vehicle {
 
     Car(double distance, double displacement, double time) {
@@ -35,7 +34,7 @@ class Car extends Vehicle {
     }
 }
 
-// Bike class extending Vehicle
+
 class Bike extends Vehicle {
 
     Bike(double distance, double displacement, double time) {
@@ -53,7 +52,7 @@ class Bike extends Vehicle {
     }
 }
 
-// Main class
+
 public class VehiclePro {
 
     public static void main(String[] args) {
